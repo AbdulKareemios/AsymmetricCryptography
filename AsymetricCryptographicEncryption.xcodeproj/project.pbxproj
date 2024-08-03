@@ -16,6 +16,7 @@
 		41AAC7802C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAC77F2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests.swift */; };
 		41AAC78A2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAC7892C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.swift */; };
 		41AAC78C2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAC78B2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITestsLaunchTests.swift */; };
+		41AAC7992C5EDE37006CAE90 /* AsymmetricCryptoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAC7982C5EDE37006CAE90 /* AsymmetricCryptoManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		41AAC7852C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsymetricCryptographicEncryptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41AAC7892C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymetricCryptographicEncryptionUITests.swift; sourceTree = "<group>"; };
 		41AAC78B2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymetricCryptographicEncryptionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41AAC7982C5EDE37006CAE90 /* AsymmetricCryptoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymmetricCryptoManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				41AAC7682C5EDDFC006CAE90 /* AppDelegate.swift */,
 				41AAC76A2C5EDDFC006CAE90 /* SceneDelegate.swift */,
 				41AAC76C2C5EDDFC006CAE90 /* ViewController.swift */,
+				41AAC7982C5EDE37006CAE90 /* AsymmetricCryptoManager.swift */,
 				41AAC76E2C5EDDFC006CAE90 /* Main.storyboard */,
 				41AAC7712C5EDDFF006CAE90 /* Assets.xcassets */,
 				41AAC7732C5EDDFF006CAE90 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				41AAC76D2C5EDDFC006CAE90 /* ViewController.swift in Sources */,
 				41AAC7692C5EDDFC006CAE90 /* AppDelegate.swift in Sources */,
+				41AAC7992C5EDE37006CAE90 /* AsymmetricCryptoManager.swift in Sources */,
 				41AAC76B2C5EDDFC006CAE90 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
