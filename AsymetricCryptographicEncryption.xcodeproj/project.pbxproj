@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41AAC7692C5EDDFC006CAE90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAC7682C5EDDFC006CAE90 /* AppDelegate.swift */; };
+		41AAC76B2C5EDDFC006CAE90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAC76A2C5EDDFC006CAE90 /* SceneDelegate.swift */; };
+		41AAC76D2C5EDDFC006CAE90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAC76C2C5EDDFC006CAE90 /* ViewController.swift */; };
+		41AAC7702C5EDDFC006CAE90 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 41AAC76F2C5EDDFC006CAE90 /* Base */; };
+		41AAC7722C5EDDFF006CAE90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AAC7712C5EDDFF006CAE90 /* Assets.xcassets */; };
+		41AAC7752C5EDDFF006CAE90 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 41AAC7742C5EDDFF006CAE90 /* Base */; };
+		41AAC7802C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAC77F2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests.swift */; };
+		41AAC78A2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAC7892C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.swift */; };
+		41AAC78C2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AAC78B2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41AAC77C2C5EDE00006CAE90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AAC75D2C5EDDFC006CAE90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AAC7642C5EDDFC006CAE90;
+			remoteInfo = AsymetricCryptographicEncryption;
+		};
+		41AAC7862C5EDE00006CAE90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AAC75D2C5EDDFC006CAE90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AAC7642C5EDDFC006CAE90;
+			remoteInfo = AsymetricCryptographicEncryption;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41AAC7652C5EDDFC006CAE90 /* AsymetricCryptographicEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsymetricCryptographicEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AAC7682C5EDDFC006CAE90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41AAC76A2C5EDDFC006CAE90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41AAC76C2C5EDDFC006CAE90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41AAC76F2C5EDDFC006CAE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41AAC7712C5EDDFF006CAE90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41AAC7742C5EDDFF006CAE90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41AAC7762C5EDDFF006CAE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41AAC77B2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsymetricCryptographicEncryptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AAC77F2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymetricCryptographicEncryptionTests.swift; sourceTree = "<group>"; };
+		41AAC7852C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsymetricCryptographicEncryptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AAC7892C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymetricCryptographicEncryptionUITests.swift; sourceTree = "<group>"; };
+		41AAC78B2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymetricCryptographicEncryptionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41AAC7622C5EDDFC006CAE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AAC7782C5EDE00006CAE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AAC7822C5EDE00006CAE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41AAC75C2C5EDDFC006CAE90 = {
+			isa = PBXGroup;
+			children = (
+				41AAC7672C5EDDFC006CAE90 /* AsymetricCryptographicEncryption */,
+				41AAC77E2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests */,
+				41AAC7882C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests */,
+				41AAC7662C5EDDFC006CAE90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41AAC7662C5EDDFC006CAE90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41AAC7652C5EDDFC006CAE90 /* AsymetricCryptographicEncryption.app */,
+				41AAC77B2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests.xctest */,
+				41AAC7852C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41AAC7672C5EDDFC006CAE90 /* AsymetricCryptographicEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				41AAC7682C5EDDFC006CAE90 /* AppDelegate.swift */,
+				41AAC76A2C5EDDFC006CAE90 /* SceneDelegate.swift */,
+				41AAC76C2C5EDDFC006CAE90 /* ViewController.swift */,
+				41AAC76E2C5EDDFC006CAE90 /* Main.storyboard */,
+				41AAC7712C5EDDFF006CAE90 /* Assets.xcassets */,
+				41AAC7732C5EDDFF006CAE90 /* LaunchScreen.storyboard */,
+				41AAC7762C5EDDFF006CAE90 /* Info.plist */,
+			);
+			path = AsymetricCryptographicEncryption;
+			sourceTree = "<group>";
+		};
+		41AAC77E2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				41AAC77F2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests.swift */,
+			);
+			path = AsymetricCryptographicEncryptionTests;
+			sourceTree = "<group>";
+		};
+		41AAC7882C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41AAC7892C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.swift */,
+				41AAC78B2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITestsLaunchTests.swift */,
+			);
+			path = AsymetricCryptographicEncryptionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41AAC7642C5EDDFC006CAE90 /* AsymetricCryptographicEncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AAC78F2C5EDE00006CAE90 /* Build configuration list for PBXNativeTarget "AsymetricCryptographicEncryption" */;
+			buildPhases = (
+				41AAC7612C5EDDFC006CAE90 /* Sources */,
+				41AAC7622C5EDDFC006CAE90 /* Frameworks */,
+				41AAC7632C5EDDFC006CAE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsymetricCryptographicEncryption;
+			productName = AsymetricCryptographicEncryption;
+			productReference = 41AAC7652C5EDDFC006CAE90 /* AsymetricCryptographicEncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41AAC77A2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AAC7922C5EDE00006CAE90 /* Build configuration list for PBXNativeTarget "AsymetricCryptographicEncryptionTests" */;
+			buildPhases = (
+				41AAC7772C5EDE00006CAE90 /* Sources */,
+				41AAC7782C5EDE00006CAE90 /* Frameworks */,
+				41AAC7792C5EDE00006CAE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AAC77D2C5EDE00006CAE90 /* PBXTargetDependency */,
+			);
+			name = AsymetricCryptographicEncryptionTests;
+			productName = AsymetricCryptographicEncryptionTests;
+			productReference = 41AAC77B2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41AAC7842C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AAC7952C5EDE00006CAE90 /* Build configuration list for PBXNativeTarget "AsymetricCryptographicEncryptionUITests" */;
+			buildPhases = (
+				41AAC7812C5EDE00006CAE90 /* Sources */,
+				41AAC7822C5EDE00006CAE90 /* Frameworks */,
+				41AAC7832C5EDE00006CAE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AAC7872C5EDE00006CAE90 /* PBXTargetDependency */,
+			);
+			name = AsymetricCryptographicEncryptionUITests;
+			productName = AsymetricCryptographicEncryptionUITests;
+			productReference = 41AAC7852C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41AAC75D2C5EDDFC006CAE90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					41AAC7642C5EDDFC006CAE90 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					41AAC77A2C5EDE00006CAE90 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 41AAC7642C5EDDFC006CAE90;
+					};
+					41AAC7842C5EDE00006CAE90 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 41AAC7642C5EDDFC006CAE90;
+					};
+				};
+			};
+			buildConfigurationList = 41AAC7602C5EDDFC006CAE90 /* Build configuration list for PBXProject "AsymetricCryptographicEncryption" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41AAC75C2C5EDDFC006CAE90;
+			productRefGroup = 41AAC7662C5EDDFC006CAE90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41AAC7642C5EDDFC006CAE90 /* AsymetricCryptographicEncryption */,
+				41AAC77A2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests */,
+				41AAC7842C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41AAC7632C5EDDFC006CAE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AAC7722C5EDDFF006CAE90 /* Assets.xcassets in Resources */,
+				41AAC7752C5EDDFF006CAE90 /* Base in Resources */,
+				41AAC7702C5EDDFC006CAE90 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AAC7792C5EDE00006CAE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AAC7832C5EDE00006CAE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41AAC7612C5EDDFC006CAE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AAC76D2C5EDDFC006CAE90 /* ViewController.swift in Sources */,
+				41AAC7692C5EDDFC006CAE90 /* AppDelegate.swift in Sources */,
+				41AAC76B2C5EDDFC006CAE90 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AAC7772C5EDE00006CAE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AAC7802C5EDE00006CAE90 /* AsymetricCryptographicEncryptionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AAC7812C5EDE00006CAE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AAC78A2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITests.swift in Sources */,
+				41AAC78C2C5EDE00006CAE90 /* AsymetricCryptographicEncryptionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41AAC77D2C5EDE00006CAE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AAC7642C5EDDFC006CAE90 /* AsymetricCryptographicEncryption */;
+			targetProxy = 41AAC77C2C5EDE00006CAE90 /* PBXContainerItemProxy */;
+		};
+		41AAC7872C5EDE00006CAE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AAC7642C5EDDFC006CAE90 /* AsymetricCryptographicEncryption */;
+			targetProxy = 41AAC7862C5EDE00006CAE90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41AAC76E2C5EDDFC006CAE90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41AAC76F2C5EDDFC006CAE90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41AAC7732C5EDDFF006CAE90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41AAC7742C5EDDFF006CAE90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41AAC78D2C5EDE00006CAE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41AAC78E2C5EDE00006CAE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41AAC7902C5EDE00006CAE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PTTK7SFSN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsymetricCryptographicEncryption/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.abdulkareem.AsymetricCryptographicEncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41AAC7912C5EDE00006CAE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PTTK7SFSN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsymetricCryptographicEncryption/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.abdulkareem.AsymetricCryptographicEncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41AAC7932C5EDE00006CAE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PTTK7SFSN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.abdulkareem.AsymetricCryptographicEncryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsymetricCryptographicEncryption.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsymetricCryptographicEncryption";
+			};
+			name = Debug;
+		};
+		41AAC7942C5EDE00006CAE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PTTK7SFSN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.abdulkareem.AsymetricCryptographicEncryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsymetricCryptographicEncryption.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsymetricCryptographicEncryption";
+			};
+			name = Release;
+		};
+		41AAC7962C5EDE00006CAE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PTTK7SFSN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.abdulkareem.AsymetricCryptographicEncryptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsymetricCryptographicEncryption;
+			};
+			name = Debug;
+		};
+		41AAC7972C5EDE00006CAE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PTTK7SFSN5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.abdulkareem.AsymetricCryptographicEncryptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsymetricCryptographicEncryption;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41AAC7602C5EDDFC006CAE90 /* Build configuration list for PBXProject "AsymetricCryptographicEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AAC78D2C5EDE00006CAE90 /* Debug */,
+				41AAC78E2C5EDE00006CAE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AAC78F2C5EDE00006CAE90 /* Build configuration list for PBXNativeTarget "AsymetricCryptographicEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AAC7902C5EDE00006CAE90 /* Debug */,
+				41AAC7912C5EDE00006CAE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AAC7922C5EDE00006CAE90 /* Build configuration list for PBXNativeTarget "AsymetricCryptographicEncryptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AAC7932C5EDE00006CAE90 /* Debug */,
+				41AAC7942C5EDE00006CAE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AAC7952C5EDE00006CAE90 /* Build configuration list for PBXNativeTarget "AsymetricCryptographicEncryptionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AAC7962C5EDE00006CAE90 /* Debug */,
+				41AAC7972C5EDE00006CAE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41AAC75D2C5EDDFC006CAE90 /* Project object */;
+}
